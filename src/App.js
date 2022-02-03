@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Footer from "./components/header/footer/Footer";
+import { BrowserRouter, Route } from "react-router-dom";
+import HomeScreen from './screens/HomeScreen.js';
+import AppScreen from "./screens/AppScreen";
+import WebsiteScreen from "./screens/WebsiteScreen";
+
+
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+   <main>
+    <Route path="/" exact={true} component={HomeScreen}/>
+    <Route path="/app"  component={AppScreen} />
+    <Route path="/website"  component={WebsiteScreen} />
+    
+   </main>
+    {/* FOOTER */}
+    <Footer/>
     </div>
+    </BrowserRouter>
   );
 }
 
