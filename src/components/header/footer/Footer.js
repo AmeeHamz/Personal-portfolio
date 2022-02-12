@@ -20,7 +20,7 @@ export default function Footer() {
               <HashLink to="/#services">services</HashLink>
               </p>
               <p>
-              <a href="#">blogs</a>
+              <a href=" # ">blogs</a>
               </p>
               <p>
               <Link to="/portfolio">Portifolio</Link>
@@ -31,20 +31,20 @@ export default function Footer() {
             </div>
             <div class="footerMedias">
               <div class="footerMedia">
-                <a href="https://www.linkedin.com/in/laura-irene-paul"
+                <a href=" "
                   ><i class="fab fa-linkedin-in"></i></a>
               </div>
               <div class="footerMedia">
-              <a href="https://www.facebook.com/irene.mmassy.1466"><i class="fab fa-facebook-f"></i></a>
+              <a href=" "><i class="fab fa-facebook-f"></i></a>
               </div>
               <div class="footerMedia">
-              <a href="https://www.instagram.com/minaheryy/"><i class="fab fa-instagram"></i></a>
+              <a href=" "><i class="fab fa-instagram"></i></a>
               </div>
               <div class="footerMedia">
-              <a href="https://www.behance.net/laummassy01ce"><i class="fab fa-behance"></i></a>
+              <a href=" "><i class="fab fa-behance"></i></a>
               </div>
               <div class="footerMedia">
-              <a href="https://github.com/irenemmassy"><i class="fab fa-github-alt"></i></a>
+              <a href=" "><i class="fab fa-github-alt"></i></a>
               </div>
             </div>
             <span>Copyright ©2020 All rights reserved </span>
